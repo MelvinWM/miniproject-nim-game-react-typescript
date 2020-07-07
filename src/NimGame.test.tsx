@@ -8,8 +8,10 @@ function clickMatchsticks(numberOfMatchsticksToClick: number) {
   // Depending on implementation, clicking a single matchstick might
   // remove more than one matchstick.
 
+  const matchstickAltText = 'matchstick';
+
   // Loop state.
-  let nimHeaps = screen.queryAllByAltText('matchstick');
+  let nimHeaps = screen.queryAllByAltText(matchstickAltText);
   let currentNumberOfClicks = 0;
 
   while (nimHeaps.length !== 0 && currentNumberOfClicks < numberOfMatchsticksToClick) {
@@ -17,7 +19,7 @@ function clickMatchsticks(numberOfMatchsticksToClick: number) {
     fireEvent.click(nimHeaps[0]);
 
     // Loop state.
-    nimHeaps = screen.queryAllByAltText('matchstick');
+    nimHeaps = screen.queryAllByAltText(matchstickAltText);
     currentNumberOfClicks += 1;
   }
 }
