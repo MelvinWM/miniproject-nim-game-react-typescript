@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/miniproject-nim-game-react-typescript/static/css/main.7a2c1303.chunk.css",
+    "main.js": "/miniproject-nim-game-react-typescript/static/js/main.87e84051.chunk.js",
+    "main.js.map": "/miniproject-nim-game-react-typescript/static/js/main.87e84051.chunk.js.map",
+    "runtime-main.js": "/miniproject-nim-game-react-typescript/static/js/runtime-main.48b2743c.js",
+    "runtime-main.js.map": "/miniproject-nim-game-react-typescript/static/js/runtime-main.48b2743c.js.map",
+    "static/js/2.9534bb19.chunk.js": "/miniproject-nim-game-react-typescript/static/js/2.9534bb19.chunk.js",
+    "static/js/2.9534bb19.chunk.js.map": "/miniproject-nim-game-react-typescript/static/js/2.9534bb19.chunk.js.map",
+    "index.html": "/miniproject-nim-game-react-typescript/index.html",
+    "precache-manifest.de5a4585b9aeb2f43ce418b51f2405bd.js": "/miniproject-nim-game-react-typescript/precache-manifest.de5a4585b9aeb2f43ce418b51f2405bd.js",
+    "service-worker.js": "/miniproject-nim-game-react-typescript/service-worker.js",
+    "static/css/main.7a2c1303.chunk.css.map": "/miniproject-nim-game-react-typescript/static/css/main.7a2c1303.chunk.css.map",
+    "static/js/2.9534bb19.chunk.js.LICENSE.txt": "/miniproject-nim-game-react-typescript/static/js/2.9534bb19.chunk.js.LICENSE.txt",
+    "static/media/matchstick.svg": "/miniproject-nim-game-react-typescript/static/media/matchstick.2490c66d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48b2743c.js",
+    "static/js/2.9534bb19.chunk.js",
+    "static/css/main.7a2c1303.chunk.css",
+    "static/js/main.87e84051.chunk.js"
+  ]
+}
