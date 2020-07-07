@@ -1,0 +1,37 @@
+
+.NimGame-split {
+  width: 50%;
+  margin-top: 20px;
+}
+
+.NimGame-left {
+  float: left;
+}
+
+.NimGame-right {
+  float: right;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.NimGame-history-list-item {
+  user-select: none;
+
+  /* Align left. */
+  float: left;
+  clear: both;
+}
+
+.NimGame-history-list {
+
+  /* Maximum height and scrollbar if list grows too long. */
+  overflow-y: auto;
+  width: max-content;
+  min-width: 300px;
+  min-height: 10px;
+  max-height: 400px;
+}
+
